@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    text-decoration-color: #4E4D4D;
+
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+form {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.button {
+    border: none;
+    outline: none;
+    font-family: 'Abril Fatface', cursive;
+    background-color: #77B99C;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.container {
+    margin: 2rem;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.nav {
+    background-color: #77B99C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 2rem 2rem;
+    font-family: lato;
+}
+
+.nav a {
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+}
+
+
+.site-name {
+    font-family: 'Abril Fatface', cursive;
+    font-size: xx-large;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+.table-container {
+    border-radius: 6px;
+    padding: 10px;
+    padding: 3rem;
+}
+
+
+
+table {
+    background-color: #D9D9D9;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+table th {
+    padding-bottom: 10px;
+}
+
+table td {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+
+
+.table {
+    background-color: #D9D9D9;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.table th {
+    padding-bottom: 10px;
+}
+
+.table td {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+
